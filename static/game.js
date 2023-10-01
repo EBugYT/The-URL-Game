@@ -11,4 +11,4 @@ function gameLoop() {
     .splice(2, hash.length);
 }
 
-setTimeout(gameLoop(), 500);
+setTimeout(gameLoop, 500);
